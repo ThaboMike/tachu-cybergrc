@@ -1,0 +1,5 @@
+Processing Activity,Purpose,Lawful Basis,Data Subjects,Personal Information Categories,Recipients/Processors,Cross-Border Transfers (Y/N),Retention,Security Measures,Responsible Owner,Notes
+Customer Onboarding,Account creation and verification,Consent/Contract,Customers,ID; Contact; Financial,Banking partner; KYC provider,N,7 years,Encryption; Access Controls,Head of Operations,
+Marketing Communications,Send newsletters/updates,Consent,Prospects/Customers,Email; Name,Email platform,N,Until opt-out,Preference center; Unsubscribe,CPO,
+Vendor Management,Due diligence and contract mgmt,Contract/Legitimate Interest,Vendors,Contact; Due diligence docs,DD platform; Legal counsel,Y,Contract term + 5y,Encryption; RBAC,Procurement,
+

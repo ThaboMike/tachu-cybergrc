@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POPIA RoPA — Download</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">IT GRC <span class="badge">Consultancy</span></div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../resources.html">Resources</a>
+        </nav>
+        <button class="menu-btn">Menu</button>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1>POPIA Record of Processing Activities (RoPA)</h1>
+        <p class="muted">Click below to download the CSV template.</p>
+        <a class="btn btn-primary" href="../downloads/POPIA_RoPA_Template.csv" download>Download CSV</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© <span id="year"></span> IT GRC Consultancy</div>
+    </footer>
+    <script src="../assets/js/app.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+
