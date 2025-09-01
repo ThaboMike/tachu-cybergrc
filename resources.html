@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resources — POPIA checklists, RoPA templates, incident notification and policy starter pack." />
     <title>Resources — IT GRC Consultancy</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="header">
       <div class="container nav">
         <div class="brand">Tachu <span class="badge">Cyber GRC</span></div>
@@ -15,22 +17,17 @@
           <a href="index.html">Home</a>
           <a href="services.html">Services</a>
           <a href="about.html">About</a>
-          <a href="resources.html">Resources</a>
+          <a href="resources.html" aria-current="page">Resources</a>
           <a href="contact.html">Contact</a>
         </nav>
         <button class="menu-btn">Menu</button>
       </div>
     </header>
 
-    <main class="section">
+    <main id="main" class="section" role="main">
       <div class="container">
         <h1>Resources — Tachu Cyber GRC</h1>
         <div class="grid">
-          <div class="card">
-            <h3>Capabilities One‑Pager</h3>
-            <p class="muted">Overview of services and packages for stakeholders.</p>
-            <a class="btn" href="downloads/Capabilities_One_Pager.pdf" download>Download</a>
-          </div>
           <div class="card">
             <h3>POPIA Compliance Checklist</h3>
             <p class="muted">A practical checklist to kick-start compliance activities.</p>
@@ -56,11 +53,11 @@
     </main>
 
     <footer class="footer">
-      <div class="container">© <span id="year"></span> IT GRC Consultancy</div>
+      <div class="container">© <span id="year"></span> Tachu Cyber GRC</div>
     </footer>
     <script src="assets/js/app.js"></script>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
-  </html>
+</html>
 
 

@@ -3,33 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Download the POPIA Compliance Checklist from Tachu Cyber GRC." />
     <title>POPIA Checklist — Download</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="header">
       <div class="container nav">
-        <div class="brand">IT GRC <span class="badge">Consultancy</span></div>
+        <div class="brand">Tachu <span class="badge">Cyber GRC</span></div>
         <nav class="nav-links">
           <a href="../index.html">Home</a>
-          <a href="../resources.html">Resources</a>
+          <a href="../resources.html" aria-current="page">Resources</a>
         </nav>
         <button class="menu-btn">Menu</button>
       </div>
     </header>
 
-    <main class="section">
+    <main id="main" class="section" role="main">
       <div class="container">
         <h1>POPIA Compliance Checklist</h1>
         <p class="muted">Click below to download the checklist.</p>
         <a class="btn btn-primary" href="../downloads/POPIA_Compliance_Checklist.pdf" download>Download PDF</a>
-        <p class="muted" style="margin-top:12px;">We’ll also send practical GRC tips. Unsubscribe anytime.</p>
       </div>
     </main>
 
     <footer class="footer">
-      <div class="container">© <span id="year"></span> IT GRC Consultancy</div>
+      <div class="container">© <span id="year"></span> Tachu Cyber GRC</div>
     </footer>
     <script src="../assets/js/app.js"></script>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
