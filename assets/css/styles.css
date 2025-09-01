@@ -76,4 +76,22 @@ form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .nav a[aria-current="page"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: -8px; height: 2px; background: var(--brand); border-radius: 2px; }
 
 
-\n/* Section dividers and headings */\n.section{border-top:1px solid var(--border);}\n.section:first-of-type{border-top:0;}\n.section h2{margin-top:0;margin-bottom:12px;font-size:20px;color:var(--accent);}\n.section h3{font-size:16px;}\n
+\n/* Section dividers and headings */\n.section{border-top:1px solid var(--border);}\n.section:first-of-type{border-top:0;}\n.section h2{margin-top:0;margin-bottom:12px;font-size:20px;color:var(--accent);}\n.section h3{font-size:16px;}\n/* Typography scale and spacing refinement */
+.hero h1 { font-size: clamp(28px, 5vw, 36px); }
+.section h2 { font-size: clamp(18px, 3vw, 22px); }
+.section p { line-height: 1.7; }
+
+/* Card accent and spacing */
+.card { position: relative; }
+.card::before { content: ""; position: absolute; left: 0; top: 0; right: 0; height: 3px; border-radius: 3px 3px 0 0; background: linear-gradient(135deg, var(--brand), var(--brand-2)); opacity: 0.0; transition: opacity .2s ease; }
+.card:hover::before { opacity: 0.9; }
+
+/* Link styling for readability */
+main a { text-decoration: underline; text-underline-offset: 2px; }
+.btn, .nav a { text-decoration: none; }
+
+/* Mobile spacing */
+@media (max-width: 900px) {
+  .container { padding-left: 16px; padding-right: 16px; }
+  .grid { gap: 20px; }
+}
