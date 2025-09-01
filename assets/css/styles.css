@@ -76,3 +76,4 @@ form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .nav a[aria-current="page"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: -8px; height: 2px; background: var(--brand); border-radius: 2px; }
 
 
+\n/* Section dividers and headings */\n.section{border-top:1px solid var(--border);}\n.section:first-of-type{border-top:0;}\n.section h2{margin-top:0;margin-bottom:12px;font-size:20px;color:var(--accent);}\n.section h3{font-size:16px;}\n
