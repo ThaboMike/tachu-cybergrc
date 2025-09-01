@@ -95,3 +95,4 @@ main a { text-decoration: underline; text-underline-offset: 2px; }
   .container { padding-left: 16px; padding-right: 16px; }
   .grid { gap: 20px; }
 }
+\n/* Dark mode variables */\n@media (prefers-color-scheme: dark) {\n  :root{--bg:#0b1220;--card:#0f172a;--text:#e5e7eb;--muted:#94a3b8;--border:#1f2937;}\n}\n/* Manual dark mode toggled via .dark on html */\nhtml.dark :root, html.dark{--bg:#0b1220;--card:#0f172a;--text:#e5e7eb;--muted:#94a3b8;--border:#1f2937;}\n/* Header bg adapt */\nhtml.dark .header{background:rgba(11,18,32,0.9);}
