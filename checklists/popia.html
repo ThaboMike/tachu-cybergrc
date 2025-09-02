@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tachu Cyber GRC — POPIA Compliance Starter Checklist</title>
+    <meta name="description" content="POPIA Compliance — Starter Checklist by Tachu Cyber GRC." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <style>
+      .content{max-width:900px;margin:0 auto}
+      .content h1{margin-bottom:8px}
+      .meta{color:var(--muted);margin-bottom:20px}
+      .content h2{margin-top:24px}
+      .content ul{margin:0 0 12px 18px}
+      .toolbar{display:flex;gap:8px;margin:16px 0}
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">Tachu <span class="badge">Cyber GRC</span></div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../resources.html" aria-current="page">Resources</a>
+        </nav>
+        <button class="menu-btn">Menu</button>
+      </div>
+    </header>
+    <main id="main" class="section">
+      <div class="container content">
+        <h1>POPIA Compliance — Starter Checklist</h1>
+        <div class="meta">Brand: Tachu Cyber GRC · South Africa · POPIA</div>
+        <div class="toolbar">
+          <a class="btn" href="POPIA_Compliance_Starter_Checklist.md" download>Download Markdown</a>
+          <button class="btn btn-primary" onclick="window.print()">Print / Save as PDF</button>
+        </div>
+        <div class="card">
+          <h2>How to use</h2>
+          <ul>
+            <li><strong>Owner:</strong> Information Officer (IO) / Deputy IO / Legal-Privacy / Security</li>
+            <li><strong>Scope:</strong> Company‑wide or business unit</li>
+            <li><strong>Review cadence:</strong> Quarterly / Semi‑annual / Annual</li>
+          </ul>
+          <h3>Quick‑Start Tiers</h3>
+          <ul>
+            <li><strong>Baseline (Day 0–30):</strong> Appoint/register IO, publish privacy notices, enable DSR & incident notification.</li>
+            <li><strong>Core (Day 31–90):</strong> Data mapping, lawful bases & retention, operator contracts, direct marketing governance.</li>
+            <li><strong>Advanced (Day 91–180):</strong> Prior‑authorisation, cross‑border controls, audits & KPIs.</li>
+          </ul>
+        </div>
+        <div class="grid" style="margin-top:16px">
+          <div class="card">
+            <h3>1) Governance & Accountability</h3>
+            <ul>
+              <li>Appoint/register IO & Deputies with the Information Regulator</li>
+              <li>Approve Privacy Policy Framework; maintain POPIA control register</li>
+              <li>Integrate POPIA with PAIA Manual and access process</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>2) Data Mapping & Records</h3>
+            <ul>
+              <li>Maintain a Processing Register (data, purposes, recipients, storage, retention)</li>
+              <li>Identify special personal information & children’s data; operators & cross‑border transfers</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>3) Lawful Processing</h3>
+            <ul>
+              <li>Justification ground per purpose; consent capture/withdrawal records where used</li>
+              <li>Minimality; collect directly unless exception applies; objection enablement</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>4) Purpose & Retention</h3>
+            <ul>
+              <li>Specific purposes; privacy notices at/before collection</li>
+              <li>Retention & disposal schedules; destruction logs</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>8) Security Safeguards</h3>
+            <ul>
+              <li>Appropriate technical & organisational measures; operator agreements</li>
+              <li>Breach response: detect, assess, and notify Regulator/subjects when required</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>9) Data Subject Rights</h3>
+            <ul>
+              <li>Enable access, correction, deletion, objection with SLAs</li>
+              <li>Identity verification; secure delivery; DSR register & turnaround tracking</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:16px">Tip: Align this POPIA checklist with your cybersecurity controls and evidence pack.</p>
+      </div>
+    </main>
+    <footer class="footer"><div class="container">© <span id="year"></span> Tachu Cyber GRC</div></footer>
+    <script src="../assets/js/app.js"></script>
+    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  </body>
+</html>

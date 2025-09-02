@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tachu Cyber GRC — Cybersecurity Policy Starter Pack</title>
+    <meta name="description" content="Cybersecurity Policy Starter Pack — Checklist by Tachu Cyber GRC." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <style>
+      .content{max-width:900px;margin:0 auto}
+      .content h1{margin-bottom:8px}
+      .meta{color:var(--muted);margin-bottom:20px}
+      .content h2{margin-top:24px}
+      .content ul{margin:0 0 12px 18px}
+      .toolbar{display:flex;gap:8px;margin:16px 0}
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">Tachu <span class="badge">Cyber GRC</span></div>
+        <nav class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../resources.html" aria-current="page">Resources</a>
+        </nav>
+        <button class="menu-btn">Menu</button>
+      </div>
+    </header>
+    <main id="main" class="section">
+      <div class="container content">
+        <h1>Cybersecurity Policy Starter Pack — Checklist</h1>
+        <div class="meta">Brand: Tachu Cyber GRC</div>
+        <div class="toolbar">
+          <a class="btn" href="cybersecurity_policy_starter_pack_checklist.md" download>Download Markdown</a>
+          <button class="btn btn-primary" onclick="window.print()">Print / Save as PDF</button>
+        </div>
+        <div class="card">
+          <h2>How to use this checklist</h2>
+          <ul>
+            <li>Owner: CISO / IT Lead / Compliance</li>
+            <li>Scope: Company‑wide or business unit</li>
+            <li>Maturity target: Baseline (2 wks) · Core (60 days) · Advanced (120+)</li>
+          </ul>
+          <h3>Quick‑Start Tiers</h3>
+          <ul>
+            <li>Baseline: essentials to reduce top risks quickly</li>
+            <li>Core: hardening, visibility, and response</li>
+            <li>Advanced: depth, automation, and assurance</li>
+          </ul>
+        </div>
+        <div class="grid" style="margin-top:16px">
+          <div class="card"><h3>1) Governance & Roles</h3><ul><li>Approve a Security Policy Framework and RACI</li><li>Risk acceptance & exception process</li><li>Policy repository with access to all staff</li></ul></div>
+          <div class="card"><h3>2) Risk & Assets</h3><ul><li>Asset‑based risk register; rating method</li><li>Review risks with leadership quarterly</li><li>Authoritative asset inventory</li></ul></div>
+          <div class="card"><h3>4) IAM & Account Security</h3><ul><li>Least privilege & RBAC; SSO for major apps</li><li>Lifecycle provisioning & quarterly access reviews</li><li>MFA coverage and password standards</li></ul></div>
+          <div class="card"><h3>6) Endpoint & Hardening</h3><ul><li>EDR, encryption, auto‑patching</li><li>Baseline hardening (CIS/vendor)</li><li>Config drift checks</li></ul></div>
+          <div class="card"><h3>8) Data Protection & Privacy</h3><ul><li>Classification; encryption in transit/at rest</li><li>DLP (start with alerts); retention</li></ul></div>
+          <div class="card"><h3>10) Backup & Recovery</h3><ul><li>3‑2‑1 backups; quarterly restores</li><li>Protect backup admin with MFA & separation</li></ul></div>
+          <div class="card"><h3>13) Logging & Detection</h3><ul><li>Centralized logging; top 10 use‑cases</li><li>Time sync (NTP)</li></ul></div>
+          <div class="card"><h3>14) Incident Response</h3><ul><li>IR plan and on‑call escalation</li><li>Tabletop exercises; breach notification</li></ul></div>
+          <div class="card"><h3>15) BC/DR</h3><ul><li>Critical processes and tolerances</li><li>BC/DR plan and annual test</li></ul></div>
+          <div class="card"><h3>17) DevSecOps</h3><ul><li>Branch protection; secrets scanning</li><li>SAST/DAST/Dependency scanning in CI</li></ul></div>
+        </div>
+        <p class="muted" style="margin-top:16px">Tip: Use this pack to drive a lightweight evidence set (policies, approvals, scans, training).</p>
+      </div>
+    </main>
+    <footer class="footer"><div class="container">© <span id="year"></span> Tachu Cyber GRC</div></footer>
+    <script src="../assets/js/app.js"></script>
+    <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+  </body>
+</html>
